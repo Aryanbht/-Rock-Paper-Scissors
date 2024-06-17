@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+SK:wght@100..400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(190, 190, 190);
+    font-family: "Montserrat", sans-serif; 
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.head h1{
+    color: #f4f4f4;
+    font-size: 60px;
+    text-shadow: 2px 10px 8px grey;
+}
+
+.head h2{
+    color: #000000;
+    font-size: 40px;
+    text-shadow: 6px 6px 16px grey;
+}
+
+.main{
+    position: relative;
+    top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    flex-wrap: wrap;
+}
+
+.main img{
+    width: 12rem;
+    height: 12rem;
+}
+
+.main img:hover{
+    cursor: pointer;
+}
+
+.display{
+    position: relative;
+    top: 12rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+.win{
+    position: relative;
+    top: 12rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#reload{
+    display: flex;
+    position: relative;
+    top: 18rem;
+    justify-content: center;
+}
+
+#btn{
+    padding: 12px;
+    border-radius: 12px;
+    border:none;
+    box-shadow: 0px 0px 12px rgb(37, 37, 37);
+    background-color: #f4f4f4;
+    font-weight: 600;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: #c7c7c7;
+}
+
+@media screen and (max-width:637px) {
+
+    .head h1{
+        color: #f4f4f4;
+        font-size: 40px;
+        text-shadow: 2px 10px 8px grey;
+    }
+    
+    .head h2{
+        color: #000000;
+        font-size: 20px;
+        text-shadow: 6px 6px 16px grey;
+    }
+    .main img{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    #reload{
+        top: 18rem;
+    }
+    .display{
+        position: relative;
+        top: 12rem;
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    
+    .win{
+        position: relative;
+        top: 12rem;
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width:445px){
+    .main img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .head h1{
+        color: #f4f4f4;
+        font-size: 30px;
+        text-shadow: 2px 10px 8px grey;
+    }
+    
+    .head h2{
+        color: #000000;
+        font-size: 20px;
+        text-shadow: 6px 6px 16px grey;
+    }
+}
